@@ -14,7 +14,7 @@ export class AmazonHomePage {
   }
 
   async goto() {
-    await this.page.goto("https://amazon.in");
+    await this.page.goto(process.env.AMAZON_BASE_URL != null ? process.env.AMAZON_BASE_URL :'https://amazon.com');
   }
 
   async enterProductNameForSearch(productName: string) {
