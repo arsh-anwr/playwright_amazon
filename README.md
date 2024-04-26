@@ -1,7 +1,7 @@
 
 # Amazon Search Bar Automation with Playwright
 
-This project demonstrates how to automate the Amazon search bar using Playwright. Playwright is a Node.js library for automating browsers, and in this project, we use it to search for products on Amazon.
+This project demonstrates how to automate the Amazon search bar using Playwright. Playwright is a Node.js library for automating browsers, and in this project, we use page object model to test and validate amazon search bar functionality.
 
 ## Getting Started
 
@@ -17,14 +17,14 @@ To get started with this project, follow these steps:
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/arsh_anwr/PLAYWRIGHT_AMAZON.git
+git clone https://github.com/arsh_anwr/playwright_amazon.git
 ```
 
 ### Install Dependencies
 Navigate to the project directory and install the necessary dependencies:
 
 ```bash
-cd PLAYWRIGHT_AMAZON
+cd playwright_amazon
 npm install
 ```
 
